@@ -1,0 +1,8 @@
+[
+    {
+        "NUM_ROLLS": 10000,
+        "NUM_SIDES": 50,
+		"ROLLS_PER_RENDER":10000
+    }
+]
+ 	
