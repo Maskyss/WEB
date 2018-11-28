@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Histogram</title>  
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+<div class="viewport">
+  <canvas id="canvas"></canvas>
+</div>
+<div class="in">
+  <div class="group">
+    <label>Number of oversize</label>
+    <input id="num-rolls"/>
+  </div>
+  <div class="group">
+    <label>Number of hists</label>
+    <input id="num-sides"/>
+  </div>
+  <div class="group">
+    <label>Rolls Per Frame</label>
+    <input id="rolls-per-render"/>
+  </div>
+</div>
+<div>
+  <button onclick="myModule.start()">Roll!</button>
+</div>
+    <script  src="js/index.js"></script>
+</body>
+
+</html>

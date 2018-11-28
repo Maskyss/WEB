@@ -1,0 +1,40 @@
+html, body {
+  font-family: arial;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.viewport {
+  box-sizing: border-box;
+  height: calc(100vh - 120px);
+  min-height: 200px;
+}
+.viewport canvas {
+  background: lightblue;
+}
+
+.in {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 1% 0;
+  display: flex;
+}
+.in > div {
+  flex-grow: 1;
+}
+.in .group {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #86c5da;
+}
